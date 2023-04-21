@@ -1,0 +1,13 @@
+[
+    {
+        "name": "",
+        "age": 18,
+        "email": "a@a.com",
+        "address": {
+            "street": "",
+            "city": "",
+            "state": "AL",
+            "zipCode": 11111
+        }
+    }
+]
