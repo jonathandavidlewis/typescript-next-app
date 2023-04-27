@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Wireless Bluetooth Headphones",
+        "category": "Electronics",
+        "brand": "AudioTech",
+        "price": 59.99,
+        "currency": "USD",
+        "image": "wireless_bluetooth_headphones.jpg",
+        "description": "Enjoy high-quality sound and a comfortable fit with our wireless Bluetooth headphones. Features a built-in microphone, easy-to-use control buttons, and a long-lasting battery.",
+        "rating": 4.5,
+        "reviews": 250
+    },
+    {
+        "id": 2,
+        "name": "Stainless Steel Water Bottle",
+        "category": "Outdoor",
+        "brand": "EcoDrink",
+        "price": 24.99,
+        "currency": "USD",
+        "image": "stainless_steel_water_bottle.jpg",
+        "description": "Stay hydrated with our durable and eco-friendly stainless steel water bottle. Designed with double-wall insulation to keep your drinks cold for up to 24 hours.",
+        "rating": 4.7,
+        "reviews": 300
+    },
+    {
+        "id": 3,
+        "name": "Slim Fit Jeans",
+        "category": "Clothing",
+        "brand": "DenimWear",
+        "price": 49.99,
+        "currency": "USD",
+        "image": "slim_fit_jeans.jpg",
+        "description": "Upgrade your wardrobe with our stylish and comfortable slim fit jeans. Made from high-quality denim with added stretch for flexibility and movement.",
+        "rating": 4.2,
+        "reviews": 150
+    },
+    {
+        "id": 4,
+        "name": "Yoga Mat",
+        "category": "Fitness",
+        "brand": "ZenFit",
+        "price": 29.99,
+        "currency": "USD",
+        "image": "yoga_mat.jpg",
+        "description": "Find your balance with our non-slip yoga mat, perfect for all types of workouts. Made from eco-friendly materials, it's lightweight and easy to carry.",
+        "rating": 4.8,
+        "reviews": 400
+    },
+    {
+        "id": 5,
+        "name": "Instant Pot 6-Quart",
+        "category": "Kitchen",
+        "brand": "CookFast",
+        "price": 89.99,
+        "currency": "USD",
+        "image": "instant_pot_6_quart.jpg",
+        "description": "Save time and effort with our versatile Instant Pot, featuring 7 cooking functions in one appliance. Ideal for pressure cooking, slow cooking, rice cooking, and more.",
+        "rating": 4.6,
+        "reviews": 500
+    }
+]

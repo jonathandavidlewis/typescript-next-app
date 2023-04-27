@@ -1,4 +1,4 @@
-import usersData from "./users.json";
+import usersData from "../data/users.json";
 import {
   UserCardProps,
   UserCardListProps,
@@ -20,6 +20,7 @@ const UserCard = ({ user }: UserCardProps) => {
     </div>
   );
 };
+
 const UserCardList = ({ users }: UserCardListProps) => {
   return (
     <div>
@@ -30,7 +31,7 @@ const UserCardList = ({ users }: UserCardListProps) => {
   );
 };
 
-export default function Example() {
+export default function ExamplePage() {
   return (
     <div>
       <h1>Users Page</h1>

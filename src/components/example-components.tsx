@@ -53,6 +53,7 @@ type StateCode =
 type FormattedAddress = `${string}, ${string}, ${string} ${number}`;
 
 type FullName = `${string} ${string}`;
+// you could use this to control how names are shown directly in types.
 
 type Address = {
   street: string;
@@ -90,3 +91,12 @@ export interface UserCardProps {
 export interface UserCardListProps {
   users: User[];
 }
+
+
+const myAddress: Address = {
+  street: "string",
+  city: "string",
+  state: "string",
+};
+
+console.log(myAddress);

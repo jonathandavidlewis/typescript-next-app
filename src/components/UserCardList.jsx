@@ -1,5 +1,3 @@
-import usersData from "./users.json";
-
 const UserCard = ({ user }) => {
   return (
     <div>
@@ -27,11 +25,4 @@ const UserCardList = ({ users }) => {
   );
 };
 
-export default function Example() {
-  return (
-    <div>
-      <h1>Users Page</h1>
-      <UserCardList users={usersData} />
-    </div>
-  );
-}
+export default UserCardList;

@@ -1,11 +1,11 @@
 // These common validation techniques (tho validation libraries are most common) are still 
 // needed when using TypeScript! 
-// These are runtime errors which TypeScript is not present for
-import usersData from "./users.json";
-import defaultValues from "./defaults.json";
+// These are runtime errors which TypeScript type checking is not present for
+import usersData from "../pages/users.json";
+import defaultValues from "../pages/defaults.json";
 // One way to prevent property look up errors, at least for 1st child properties is to use a 
 //default value. Usually this is initialized as an empty value for the expected data type. 
-// Though more robust defensive coding would inlcude default values for all the expected properties.
+// Though more robust defensive coding would include default values for all the expected properties.
 const UserCard = (user = defaultValues.user) => {
   return (
     <div>
@@ -14,7 +14,7 @@ const UserCard = (user = defaultValues.user) => {
       <p>Email: {user.email}</p>
       <p>Address:</p>
       <ul>
-        {/* ?. optional chaining is a repetative but effective way to protect against missing data in 
+        {/* ?. optional chaining is a repetitive but effective way to protect against missing data in 
         nested object properties. */}
         <li>Street: {user.address?.street}</li>
         <li>City: {user.address?.city}</li>
